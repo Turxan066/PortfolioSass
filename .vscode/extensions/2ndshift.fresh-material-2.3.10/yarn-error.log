@@ -1,0 +1,102 @@
+Arguments: 
+  /usr/local/Cellar/node@14/14.16.0_1/bin/node /usr/local/Cellar/yarn/1.22.10/libexec/bin/yarn.js publish
+
+PATH: 
+  /usr/local/sbin:/Users/rhamburg/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/usr/local/sbin:/Users/rhamburg/.rbenv/shims
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.16.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:137009:13)
+      at Interface.emit (events.js:315:20)
+      at Interface._ttyWrite (readline.js:875:16)
+      at ReadStream.onkeypress (readline.js:213:10)
+      at ReadStream.emit (events.js:315:20)
+      at emitKeys (internal/readline/utils.js:345:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (readline.js:1144:36)
+      at ReadStream.emit (events.js:315:20)
+      at addChunk (internal/streams/readable.js:309:12)
+
+npm manifest: 
+  {
+  	"name": "fresh-material",
+  	"displayName": "Fresh Material",
+  	"description": "Easy on the eyes with a splash of flair inspired by Atom Material UI",
+  	"version": "2.3.10",
+  	"publisher": "2ndshift",
+  	"engines": {
+  		"vscode": "^1.12.0"
+  	},
+  	"icon": "images/icon.png",
+  	"categories": [
+  		"Themes"
+  	],
+  	"license": "https://github.com/ambidexterich/vscode-fresh-material#license",
+  	"homepage": "https://github.com/ambidexterich/vscode-fresh-material",
+  	"repository": {
+  		"type": "git",
+  		"url": "https://github.com/ambidexterich/vscode-fresh-material.git"
+  	},
+  	"bugs": {
+  		"url": "https://github.com/ambidexterich/vscode-fresh-material/issues"
+  	},
+  	"contributes": {
+  		"themes": [
+  			{
+  				"label": "Fresh Material",
+  				"uiTheme": "vs-dark",
+  				"path": "./themes/fresh-material.json"
+  			},
+  			{
+  				"label": "Fresh Material - Blue",
+  				"uiTheme": "vs-dark",
+  				"path": "./themes/fresh-material-blue.json"
+  			},
+  			{
+  				"label": "Fresh Material - Green",
+  				"uiTheme": "vs-dark",
+  				"path": "./themes/fresh-material-green.json"
+  			},
+  			{
+  				"label": "Fresh Material - Pink",
+  				"uiTheme": "vs-dark",
+  				"path": "./themes/fresh-material-pink.json"
+  			},
+  			{
+  				"label": "Fresh Material - Red",
+  				"uiTheme": "vs-dark",
+  				"path": "./themes/fresh-material-red.json"
+  			},
+  			{
+  				"label": "Fresh Material - Indigo",
+  				"uiTheme": "vs-dark",
+  				"path": "./themes/fresh-material-indigo.json"
+  			},
+  			{
+  				"label": "Fresh Material - Cyan",
+  				"uiTheme": "vs-dark",
+  				"path": "./themes/fresh-material-cyan.json"
+  			}
+  		]
+  	},
+  	"__metadata": {
+  		"id": "dd13f358-6e55-46d1-961e-79ef6cf9221b",
+  		"publisherDisplayName": "Rich Hamburg",
+  		"publisherId": "711ccf4d-a23e-4749-9ef5-135cbf6c9c10"
+  	}
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
